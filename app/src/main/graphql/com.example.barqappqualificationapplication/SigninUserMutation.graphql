@@ -1,0 +1,33 @@
+mutation SigninUserMutation($mobile: String!, $password: String!) {
+    signinUser(input: {mobile: $mobile, password: $password, clientMutationId: "001"}) {
+        token
+        user {
+#            createdAt
+#            deviceId
+#            deviceType
+            email
+#            id
+#            isBanned
+#            isOnline
+#            isVerified
+#            language
+#            mobile
+            name
+#            role
+#            updatedAt
+#            wallet {
+#                balance
+#                currency
+#                id
+#                transactions {
+#                    amount
+#                    createdAt
+#                    id
+#                    note
+#                    orderTrackId
+#                    updatedAt
+#                }
+#            }
+        }
+    }
+}

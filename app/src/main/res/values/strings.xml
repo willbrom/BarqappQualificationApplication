@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Barqapp Qualification Application</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Log in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome "</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="slogan">Cultivating Ideas for Better Shipping</string>
+    <string name="prompt_mobile">Mobile number</string>
+    <string name="invalid_signin">Login failed!. Are you sure you have the right credentials?</string>
+
+    <string-array name="order_number_array">
+        <item>db5b669f</item>
+        <item>25a34f96</item>
+        <item>5c165ee5</item>
+        <item>5ea9797e</item>
+        <item>ecef4847</item>
+    </string-array>
+
+    <string-array name="order_description_array">
+        <item>Coffee</item>
+        <item>Camera</item>
+        <item>Letter</item>
+        <item>Cabrito</item>
+        <item>Folder</item>
+    </string-array>
+
+    <string-array name="order_price_array">
+        <item>28.0</item>
+        <item>498.0</item>
+        <item>60.0</item>
+        <item>76.88</item>
+        <item>90.0</item>
+    </string-array>
+
+    <string-array name="order_status_array">
+        <item>Accepted</item>
+        <item>Completed</item>
+        <item>Completed</item>
+        <item>Completed</item>
+        <item>Completed</item>
+    </string-array>
+</resources>
